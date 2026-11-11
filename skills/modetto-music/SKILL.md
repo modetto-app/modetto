@@ -109,8 +109,12 @@ Give the musician the Library title and track number of each take, and how it wa
   line sounds like a skip, even when it lands on a bar line.
 - **Master from the edited take the musician starred,** never from the raw render. `modetto song <track>` lists
   every take of a song, and `modetto feedback <track>` shows what was said about each one.
-- **Group the takes of one song.** A track made from another joins its song by itself. `modetto group` and
-  `modetto ungroup` fix the cases that go wrong.
+- **The master leads its song.** A master made outside the app and added with `modetto import` is a song of its
+  own: group it with the take it came from, `modetto group <take> <master>`. The Library shows the newest starred
+  take first, so a starred raw take stays on top until the master has a star too. Star the master once the musician
+  approves it; the older stars stay.
+- **Group the takes of one song.** A track made from another joins its song by itself, but takes of a new song with
+  different seeds are separate songs. Group them right after rendering. `modetto ungroup` takes one back out.
 
 ## Learning from the musician
 
