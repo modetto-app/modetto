@@ -38,6 +38,8 @@ modetto feedback --search modetto/ --quality
 
 The app puts the command at `~/Library/Application Support/modetto-desktop/bin/modetto`. The website has [instructions to give your agent](https://modetto.app/?utm_source=github&utm_medium=readme#agent-setup).
 
+The [modetto-music skill](skills/modetto-music/SKILL.md) teaches an agent how to prompt YuE2, keep one voice across songs and check a take before showing it.
+
 ## What else it does
 
 **Write.** Type your lyrics with `[Verse]` and `[Chorus]` tags, describe the style in a few words, and YuE2-3B generates the whole song. Ask for up to six takes at once and keep the one you like.
