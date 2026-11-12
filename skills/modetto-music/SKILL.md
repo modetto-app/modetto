@@ -107,6 +107,9 @@ Give the musician the Library title and track number of each take, and how it wa
   Offer other improvements separately.
 - **Repeat and cut on phrases.** Electronic music moves in 8-bar phrases. A repeat or a cut that ignores the phrase
   line sounds like a skip, even when it lands on a bar line.
+- **Brighten a part with EQ on the whole mix, not on its stem.** Most of a stem's treble is noise left by the split.
+  Boost it, or lay the stem over the mix, and the noise comes up in quiet passages while the part itself blurs. Raise
+  the band where the part sits, around 2 to 5 kHz for a piano's attack, and listen to the quietest passage afterwards.
 - **Master from the edited take the musician starred,** never from the raw render. `modetto song <track>` lists
   every take of a song, and `modetto feedback <track>` shows what was said about each one.
 - **The master leads its song.** A master made outside the app and added with `modetto import` is a song of its
